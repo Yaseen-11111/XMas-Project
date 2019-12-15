@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = 'stylesheet' type = "text/css" href = "styles.css">
+
+    <title>Christmas Project</title>
+</head>
+
+<body>
+<script src = "code.js"></script>
+<div class="banner">
+        <h1 class = "header1">Logic Gate Simulator Using JavaScript</h1>
+        <div class = "border">
+            <p class = "bo text">Inputs MUST be 0 or 1. If the inputs are something else, the output will display empty or display a wrong output :)</p>
+        </div>
+    </div>
+</div>
+
+<div class="gif1">
+    <img src="../giphy.gif" alt="Image" width="250" height="269"/>
+</div>
+
+
+<div class = "border center">
+    <h3 class = "header2">AND Gate : </h3>
+    <div class = "bxstyle">
+        <form action = "javascript:void(0);">
+            In a: <br>
+            <input type = "text" id = "inanda" value = "">
+            <br>
+            In b: <br>
+            <input type = "text" id = "inandb" value = "">
+            <br> <br>
+            <button onclick = "and()">Output</button>
+        </form>
+    </div>
+    <p class = "text" id = "anda"></p>
+    <p class = "text" id = "andb"></p>
+    <p class = "text" id = "andout"></p>
+</div>
+
+<div class = "border center">
+    <div class = "bxstyle">
+        <h3 class = "header2">NAND Gate : </h3>
+        <form action = "javascript:void(0);">
+            In a: <br>
+            <input type = "text" id = "innanda" value = "">
+            <br>
+            In b: <br>
+            <input type = "text" id = "innandb" value = "">
+            <br> <br>
+            <button onclick = "nand()">Output</button>
+        </form>
+    </div>
+    <p class = "text" id = "nanda"></p>
+    <p class = "text" id = "nandb"></p>
+    <p class = "text" id = "nandout"></p>
+</div>
+
+<div class = "border center">
+    <h3 class = "header2">OR Gate : </h3>
+    <div class = "bxstyle">
+        <form action = "javascript:void(0);">
+            In a: <br>
+            <input type = "text" id = "inora" value = "">
+            <br> <br>
+            In b: <br>
+            <input type = "text" id = "inorb" value = "">
+            <br> <br>
+            <button onclick = "or()">Output</button>
+        </form>
+    </div>
+    <p class = "text" id = "ora"></p>
+    <p class = "text" id = "orb"></p>
+    <p class = "text" id = "orout"></p>
+</div>
+
+<div class = "border center">
+    <h3 class = "header2">NOR Gate : </h3>
+    <div class = "bxstyle">
+        <form action = "javascript:void(0);">
+            In a: <br>
+            <input type = "text" id = "innora" value = "">
+            <br>
+            In b: <br>
+            <input type = "text" id = "innorb" value = "">
+            <br> <br>
+            <button onclick = "nor()">Output</button>
+        </form>
+        <p class = "text" id = "nora"></p>
+        <p class = "text" id = "norb"></p>
+        <p class = "text" id = "norout"></p>
+    </div>
+</div>
+
+<div class = "border center">
+    <h3 class = "header2">XOR Gate : </h3>
+    <div class = "bxstyle">
+        <form action = "javascript:void(0);">
+            In a: <br>
+            <input type = "text" id = "inxora" value = "">
+            <br>
+            In b: <br>
+            <input type = "text" id = "inxorb" value = "">
+            <br> <br>
+            <button onclick = "xor()">Output</button>
+        </form>
+        <p class = "text" id = "xora"></p>
+        <p class = "text" id = "xorb"></p>
+        <p class = "text" id = "xorout"></p>
+    </div>
+</div>
+
+<div class = "border center">
+    <h3 class = "header2">XNOR Gate: </h3>
+    <div class = "bxstyle">
+        <form action = "javascript:void(0);">
+            In a: <br>
+            <input type = "text" id = "inxnora" value = "">
+            <br>
+            In b: <br>
+            <input type = "text" id = "inxnorb" value = "">
+            <br> <br>
+            <button onclick = "xnor()">Output</button>
+        </form>
+        <p class = "text" id = "xnora"></p>
+        <p class = "text" id = "xnorb"></p>
+        <p class = "text" id = "xnorout"></p>
+    </div>
+</div>
+
+<div class = "ftbg">
+    <footer>
+        <p class = "footertxt">Created by Yaseen Rashid :)</p>
+    </footer>
+</div>
+
+</body>
+</html>

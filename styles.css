@@ -1,0 +1,74 @@
+body{
+    background-color: #a1a1a1;
+}
+.banner{
+    height: 40%;
+    background-color: #db7c66;
+    width: 100%;
+    background-size: cover;
+}
+
+.gif1{
+    text-align: center;
+}
+
+.border{
+    border-radius: 5px;
+    border: 2px solid darkgoldenrod;
+    margin-bottom: 10px;
+}
+
+.bo{
+    font-weight: bold;
+    text-align: center;
+}
+
+.bxstyle{
+    margin-left: 10px;
+}
+
+.ftbg{
+    background-color: #a58b4d;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    margin: 0px;
+}
+
+.center{
+    display: block;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.header1{
+    font-family: Times;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header2{
+    font-family: Times;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.text{
+    font-family: Times;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footertxt{
+    font-family: "Comic Sans MS";
+    text-align: center;
+    font-size: 18px;
+}
